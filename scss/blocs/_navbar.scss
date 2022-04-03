@@ -47,8 +47,10 @@ transition: 0.3s;
       padding: 15px 30px;
       padding-right: 50px;
       background: #1BA0AB;
+      border: 2px solid #1BA0AB;
       color: white;
       border-radius: 5px;
+      transition: 0.3s;
      }
      &__right-link:nth-child(1){
         padding-right: 30px;
@@ -69,9 +71,7 @@ letter-spacing: 0.20000000298023224px;
 text-align: right;
 color: #737373;
      }
-     &__right-link{
-
-     }
+    
      &__center-link:hover{
         font-size: 14px;
         font-weight: 700;
@@ -80,6 +80,14 @@ color: #737373;
         text-align: center;
         color: #f56d6d;
      }
+     &__right-link:nth-child(2):hover{
+        padding: 15px 30px;
+        padding-right: 50px;
+        border:2px solid #1BA0AB;
+        background: white;
+        color: #1BA0AB;
+        border-radius: 5px;
+       }
      
     
 }

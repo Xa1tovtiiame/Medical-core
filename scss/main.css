@@ -55,8 +55,11 @@
   padding: 15px 30px;
   padding-right: 50px;
   background: #1BA0AB;
+  border: 2px solid #1BA0AB;
   color: white;
   border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .navbar__right-link:nth-child(1) {
@@ -88,6 +91,23 @@
   letter-spacing: 0.20000000298023224px;
   text-align: center;
   color: #f56d6d;
+}
+
+.navbar__right-link:nth-child(2):hover {
+  padding: 15px 30px;
+  padding-right: 50px;
+  border: 2px solid #1BA0AB;
+  background: white;
+  color: #1BA0AB;
+  border-radius: 5px;
+}
+
+.header ul, .header ol {
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
 }
 
 html {
