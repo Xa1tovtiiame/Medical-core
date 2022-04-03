@@ -1,0 +1,85 @@
+.navbar{
+
+
+    background: #FFF5F0;
+ 
+&__container{
+    position: relative;
+}
+&__img-box{
+    position: absolute;
+    left:89%;
+    top: 7.5%;
+}
+    &__list{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+     list-style: none;
+    }
+    &__link{
+     text-decoration: none;
+    
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+   color: #252B42;
+    }
+
+
+     &__center-link, &__right-link{
+         padding: 0px 10px;
+         text-decoration: none;
+     }
+     &__center-link{
+        
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #737373;
+transition: 0.3s;
+     }
+     &__right-link:nth-child(2){
+      padding: 15px 30px;
+      padding-right: 50px;
+      background: #1BA0AB;
+      color: white;
+      border-radius: 5px;
+     }
+     &__right-link:nth-child(1){
+        padding-right: 30px;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.20000000298023224px;
+text-align: right;
+color: #1BA0AB;
+transition: 0.3s;
+     }
+     &__right-link:nth-child(1):hover{
+        padding-right: 30px;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.20000000298023224px;
+text-align: right;
+color: #737373;
+     }
+     &__right-link{
+
+     }
+     &__center-link:hover{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        color: #f56d6d;
+     }
+     
+    
+}
